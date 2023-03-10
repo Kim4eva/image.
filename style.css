@@ -1,0 +1,27 @@
+body{
+background-color: #fff;    
+}
+.img img{
+width: 98%;
+margin-left: 1%;
+position: relative;
+}
+.img-bg img{
+width: 5%;
+position: absolute;
+top: 21px;
+left: 93%;
+
+}
+@media screen and(max-height:840px) {
+    .img img{
+        width: 85%;
+        position: relative;
+        }
+
+        .img-bg img{
+        width: 5%;
+        position: absolute;
+        top: 21px;
+        left: 93%;
+}
